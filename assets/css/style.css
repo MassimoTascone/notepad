@@ -1,0 +1,17 @@
+/* CSS for NotePad */
+h1 {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+#text {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

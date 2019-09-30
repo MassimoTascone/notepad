@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>NotePad | A place where you can write what you want and much more !</title>
+</head>
+<body>
+    <header>
+        <h1>NotePad</h1>
+        <ul>
+            <li><button id="btnBold">Bold</button></li>
+            <li><button id="btnIta">Italic</button></li>
+            <li><button id="btnUnder">Underline</button></li>
+            <li><button id="btnColor">Pick a Color</button>
+            <li>
+                <select name="selectFontFamily" onchange="changeFont(this);">
+                    <option value="Arial"> Arial</option>
+                    <option value="Serif"> Serif</option>
+                    <option value="Sans-Serif"> Sans-Serif </option>
+                    <option value="Tahoma"> Tahoma </option>
+                    <option value="System-Ui">System  Ui</option>
+                    <option value="Lucia Sans"> Lucida Sans </option>                               
+              </select>
+            </li>  
+        </ul>
+    </header>
+
+    <main>
+        <div id="text">
+            <textarea name="notepad" id="txt" cols="120" rows="30" spellcheck="true" placeholder="Write your stuff man..."></textarea>
+        </div>
+    </main>
+    
+
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
