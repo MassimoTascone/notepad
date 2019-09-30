@@ -14,17 +14,50 @@
             <li><button id="btnBold">Bold</button></li>
             <li><button id="btnIta">Italic</button></li>
             <li><button id="btnUnder">Underline</button></li>
-            <li><button id="btnColor">Pick a Color</button>
             <li>
                 <select name="selectFontFamily" onchange="changeFont(this);">
-                    <option value="Arial"> Arial</option>
-                    <option value="Serif"> Serif</option>
-                    <option value="Sans-Serif"> Sans-Serif </option>
-                    <option value="Tahoma"> Tahoma </option>
+                    <option value="Arial">Arial</option>
+                    <option value="Serif">Serif</option>
+                    <option value="Sans-Serif">Sans-Serif</option>
+                    <option value="Tahoma">Tahoma</option>
                     <option value="System-Ui">System  Ui</option>
-                    <option value="Lucia Sans"> Lucida Sans </option>                               
+                    <option value="Lucia Sans">Lucida Sans</option>
+                    <option value="Courrier New">Courrier New</option>
+                    <option value="Merriweather">Merriweather</option>
+                    <option value="Oswald">Oswald</option>
+                    <option value="Robot">Robot</option>
+                    <option value="Times New Roman">Times New Roman</option>
+
               </select>
-            </li>  
+            </li>
+            <li>
+                <select name="selectSize" onchange="changeSize(this);">
+                    <option value="8px">8</option>
+                    <option value="9px">9</option>
+                    <option value="10px">10</option>
+                    <option value="11px">11</option>
+                    <option value="12px">12</option>
+                    <option value="14px">14</option>
+                    <option value="18px">18</option>
+                    <option value="24px">24</option>
+                    <option value="30px">30</option>
+                    <option value="36px">36</option>
+                    <option value="48px">48</option>
+                    <option value="60px">60</option>
+                    <option value="72px">72</option>
+                    <option value="96px">96</option>
+                </select>
+            </li>
+            <li>
+                <select name="selectColor" onchange="changeColor(this);">
+                    <option value="#0F0F0F">Black</option>
+                    <option value="#4D4A4A">Grey</option>
+                    <option value="#D60404">Red</option>
+                    <option value="#E0CF04">Yellow</option>
+                    <option value="#04A6E0">Blue</option>
+                    <option value="#6EA607">Green</option>
+                </select>
+            </li>
         </ul>
     </header>
 
